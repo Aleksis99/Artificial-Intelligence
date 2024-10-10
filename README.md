@@ -45,5 +45,5 @@ You can install them with pip.
     ```
 4. Then you can install the necessary libraries :
     ```
-      pip install requirements.txt
+      pip install -r requirements.txt
     ```
