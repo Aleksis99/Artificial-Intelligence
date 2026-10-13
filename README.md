@@ -18,13 +18,13 @@
 
 ## Environment
 
-The course python version is 12.
+The course Python version is 3.12.
 In the requirements.txt file you will find all the necessary libraries to run the notebooks.
 You can install them with pip.
 
-      pip install requirements.txt
+      pip install -r requirements.txt
 
-[Conda](https://docs.conda.io/projects/conda/en/latest/index.html#) is recommended for managing you environment. 
+[Conda](https://docs.conda.io/projects/conda/en/latest/index.html#) is recommended for managing your environment. 
 
 1. To create an environment:
     ```
@@ -36,7 +36,7 @@ You can install them with pip.
 
       ``proceed ([y]/n)?``
 
-   This creates the myenv environment in ``/envs/``. No
+   This creates the ``<my-env>`` environment in ``/envs/``. No
    packages will be installed in this environment.
 
 3. Then you need to activate your environment :
@@ -46,4 +46,8 @@ You can install them with pip.
 4. Then you can install the necessary libraries :
     ```
       pip install -r requirements.txt
+    ```
+5. Start Jupyter :
+    ```
+      jupyter lab
     ```
